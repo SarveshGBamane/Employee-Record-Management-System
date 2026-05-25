@@ -10,7 +10,7 @@ public class DbConnection {
 		try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
-		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_db","root","sarvesh@123");
+		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_db","root","yourPassworf");
 		}catch(ClassNotFoundException e) {
 			e.printStackTrace();
 		}catch(SQLException e) {
